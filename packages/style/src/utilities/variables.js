@@ -10,4 +10,4 @@
 //
 
 // Typography / Font Family
-export const fontFamilySansSerif = '\'IBM Plex Sans\', sans-serif';
+export const fontFamilySansSerif = '\'Open Sans\', sans-serif';

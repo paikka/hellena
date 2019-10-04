@@ -64,7 +64,7 @@ export const fontWeight5 = 800;
 // Default
 export const fontWeight = fontWeight2;
 
-export const fontWeight = {
+export const fontWeights = {
     1: fontWeight1,
     2: fontWeight2,
     3: fontWeight3,

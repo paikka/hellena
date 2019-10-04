@@ -6,3 +6,4 @@
  */
 
 export * from './utilities/variables';
+export * from './utilities/functions';

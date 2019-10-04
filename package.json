@@ -5,11 +5,18 @@
   "repository": "https://github.com/paikka/hellena.git",
   "license": "MIT",
   "scripts": {
-    "test": "cross-env BABEL_ENV=test jest --config=jest.config.json"
+    "test": "cross-env BABEL_ENV=test jest --config=jest.config.js"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
     "cross-env": "^6.0.3",
     "jest": "^24.9.0",
+    "jest-junit": "^8.0.0",
     "lerna": "^3.16.4"
   }
 }

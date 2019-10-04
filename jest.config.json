@@ -1,9 +1,0 @@
-{
-  "name": "hellena",
-  "collectCoverageFrom": [
-    "packages/**/src/**/*.js",
-    "!packages/{bundler,cli,components,sketch}/**",
-    "!packages/**/{examples,stories}/**",
-    "!**/*-story.js"
-  ]
-}

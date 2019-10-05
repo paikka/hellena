@@ -7,7 +7,6 @@
  * @jest-environment node
  */
 
-
 import { rgba } from '../../../src/utilities/functions';
 
 test('Convert the HEX color #000000 to RGBA rgba(0, 0, 0, 0.50)', () => {

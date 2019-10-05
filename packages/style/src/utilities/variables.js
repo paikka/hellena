@@ -10,7 +10,7 @@
 //
 
 // Typography / Font Family
-export const fontFamilySansSerif = '\'Open Sans\', sans-serif';
+export const fontFamilySansSerif = "'Open Sans', sans-serif";
 export const fontFamilyMonospace = 'monospace';
 
 // Default
@@ -51,7 +51,7 @@ export const fontSizes = {
   12: fontSize12,
   13: fontSize13,
   14: fontSize14,
-  15: fontSize15,
+  15: fontSize15
 };
 
 // Typography / Font Weight
@@ -69,5 +69,5 @@ export const fontWeights = {
   2: fontWeight2,
   3: fontWeight3,
   4: fontWeight4,
-  5: fontWeight5,
+  5: fontWeight5
 };

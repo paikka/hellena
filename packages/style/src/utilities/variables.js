@@ -10,7 +10,7 @@
 //
 
 // Typography / Font Family
-export const fontFamilySansSerif = '\'Open Sans\', sans-serif';
+export const fontFamilySansSerif = "'Open Sans', sans-serif";
 export const fontFamilyMonospace = 'monospace';
 
 // Default

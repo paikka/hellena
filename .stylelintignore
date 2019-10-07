@@ -1,0 +1,4 @@
+# Directories
+packages/*/__tests__/
+# Files
+packages/*/package.json

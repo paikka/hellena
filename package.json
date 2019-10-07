@@ -5,9 +5,11 @@
   "repository": "https://github.com/paikka/hellena.git",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint packages",
-    "lint:fix": "eslint packages --fix",
-    "test": "cross-env BABEL_ENV=test jest --config=jest.config.js"
+    "eslint": "eslint packages --config .eslintrc",
+    "eslint:fix": "eslint packages --config .eslintrc --fix",
+    "stylelint": "stylelint packages --config .stylelintrc",
+    "stylelint:fix": "stylelint packages --config .stylelintrc --fix",
+    "test": "cross-env BABEL_ENV=test jest --config jest.config.js --verbose"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -26,11 +28,15 @@
     "jest": "^24.9.0",
     "jest-junit": "^8.0.0",
     "lerna": "^3.16.4",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-scss": "^3.11.1"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test && npm run lint"
+      "pre-commit": "npm run test && npm run eslint && npm run stylelint"
     }
-  }
+  },
+  "dependencies": {}
 }

@@ -1,7 +1,14 @@
 <p align="center" style="color: #343a40">
-  <img src="imgs/hellena-ui.png" alt="Hellena Kit" height="150" width="150">
-  <h1 align="center">Hellena UI</h1>
+    <img src="imgs/hellena-ui.png" alt="Hellena Kit" height="150" width="150">
+    <h1 align="center">Hellena UI</h1>
 </p>
+
+<p align="center">
+    <a href="https://travis-ci.com/paikka/hellena/">
+        <img src="https://travis-ci.com/paikka/hellena.svg" alt="Build Status">
+    </a>
+</p>
+
 
 <p align="center" style="font-size: 1.2rem;">Hellena's official UI library, built according to the Hellena Design Guidelines.</p>
 

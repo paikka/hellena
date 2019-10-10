@@ -9,6 +9,9 @@
 //
 //
 
+export const baseFontSize = '16px';
+export const baseLineHeight = '24px';
+
 // Typography / Font Family
 export const fontFamilySansSerif = "'Open Sans', sans-serif";
 export const fontFamilyMonospace = 'monospace';
@@ -70,4 +73,98 @@ export const fontWeights = {
   3: fontWeight3,
   4: fontWeight4,
   5: fontWeight5
+};
+
+// Typography / Headings
+export const headings = {
+  'text-1': {
+    fontFamily: fontFamily,
+    fontSize: fontSize1,
+    fontWeight: fontWeight3,
+    lineHeight: '1.25px'
+  },
+  'text-2': {
+    fontFamily: fontFamily,
+    fontSize: fontSize2,
+    fontWeight: fontWeight3,
+    lineHeight: '1.25px'
+  },
+  'text-3': {
+    fontFamily: fontFamily,
+    fontSize: fontSize3,
+    fontWeight: fontWeight3,
+    lineHeight: '1.25px'
+  },
+  'text-4': {
+    fontFamily: fontFamily,
+    fontSize: fontSize4,
+    fontWeight: fontWeight3,
+    lineHeight: '1.25px'
+  },
+  'text-5': {
+    fontFamily: fontFamily,
+    fontSize: fontSize5,
+    fontWeight: fontWeight3,
+    lineHeight: '1.25px'
+  },
+  'heading-1': {
+    fontFamily: fontFamily,
+    fontSize: fontSize6,
+    fontWeight: fontWeight4,
+    lineHeight: '1.25px'
+  },
+  'heading-2': {
+    fontFamily: fontFamily,
+    fontSize: fontSize7,
+    fontWeight: fontWeight4,
+    lineHeight: '1.25px'
+  },
+  'heading-3': {
+    fontFamily: fontFamily,
+    fontSize: fontSize8,
+    fontWeight: fontWeight4,
+    lineHeight: '1.25px'
+  },
+  'heading-4': {
+    fontFamily: fontFamily,
+    fontSize: fontSize9,
+    fontWeight: fontWeight4,
+    lineHeight: '1.25px'
+  },
+  'heading-5': {
+    fontFamily: fontFamily,
+    fontSize: fontSize10,
+    fontWeight: fontWeight5,
+    lineHeight: '1.25px'
+  },
+  'heading-6': {
+    fontFamily: fontFamily,
+    fontSize: fontSize11,
+    fontWeight: fontWeight5,
+    lineHeight: '1.25px'
+  },
+  'heading-7': {
+    fontFamily: fontFamily,
+    fontSize: fontSize12,
+    fontWeight: fontWeight5,
+    lineHeight: '1.25px'
+  },
+  'heading-8': {
+    fontFamily: fontFamily,
+    fontSize: fontSize13,
+    fontWeight: fontWeight5,
+    lineHeight: '1.25px'
+  },
+  'heading-9': {
+    fontFamily: fontFamily,
+    fontSize: fontSize14,
+    fontWeight: fontWeight5,
+    lineHeight: '1.25px'
+  },
+  'heading-10': {
+    fontFamily: fontFamily,
+    fontSize: fontSize15,
+    fontWeight: fontWeight5,
+    lineHeight: '1.25px'
+  }
 };

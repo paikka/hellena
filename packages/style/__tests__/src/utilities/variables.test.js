@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { variables, fontSizes, fontWeights } from '../../../src';
+import { variables, fontSizes, fontWeights, headings } from '../../../src';
 
 test('variables', () => {
   expect(variables).toMatchSnapshot();
@@ -41,4 +41,28 @@ test('Font weight object assignment', () => {
     5: 800
   };
   expect(fontWeights).toEqual(expected);
+});
+
+test('Text and heading sizing object assignment', () => {
+  const keys = [
+    'text-1',
+    'text-2',
+    'text-3',
+    'text-4',
+    'text-5',
+    'heading-1',
+    'heading-2',
+    'heading-3',
+    'heading-4',
+    'heading-5',
+    'heading-6',
+    'heading-7',
+    'heading-8',
+    'heading-9',
+    'heading-10'
+  ];
+  // Faz o mapeamento e verifica a presença de todas as chaves
+  keys.map(function(value, index, array) {
+    expect(headings).toHaveProperty(value);
+  });
 });

@@ -1,13 +1,32 @@
-// Mixin itself
-@mixin clearfix() {
+/// Helper to clear inner floats
+/// @author Nicolas Gallagher
+/// @link http://nicolasgallagher.com/micro-clearfix-hack/ Micro Clearfix
+@mixin clearfix {
   &::after {
-    display: block;
-    content: "";
+    content: '';
+    display: table;
     clear: both;
   }
 }
 
-// Usage as a mixin
-//.element {
-//  @include clearfix;
-//}
+/// Helper to size an element
+/// @author Jorge Rodrigues
+/// @param {Length} $width
+/// @param {Length} $height
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+/// Helper to define avatar sizes and formats
+/// @author Jorge Rodrigues
+/// @param {Length} $size
+/// @param {Length} $circle
+@mixin avatar($size, $circle: false) {
+  width: $size;
+  height: $size;
+
+  @if $circle {
+    border-radius: $size / 2;
+  }
+}

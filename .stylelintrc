@@ -12,7 +12,8 @@
           "if",
           "each",
           "include",
-          "mixin"
+          "mixin",
+          "return"
         ]
       }
     ]

@@ -10,5 +10,8 @@
     "name": "Jorge Lauro Campos Rodrigues",
     "email": "jorge@paikka.me"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }

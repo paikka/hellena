@@ -9,6 +9,9 @@
 //
 //
 
+$base-font-size: 16px;
+$base-line-height: 24px;
+
 // Typography / Font Family
 $font-family-sans-serif: 'Open Sans', sans-serif !default;
 $font-family-monospace: monospace !default;
@@ -78,4 +81,43 @@ $font-weights: map_merge(
     "5": $font-weight-5,
   ),
   $font-weights
+);
+
+// Headings
+
+/// @type Map
+/// @access public
+/// @group @hellena/style
+$headings: () !default;
+$headings: map_merge(
+  $heading-1: (
+    font-family: $font-family,
+    font-size: $font-size-1,
+    font-weight: $font-weight-1,
+    line-height: 1.25px
+  ),
+  $heading-2: (
+    font-family: $font-family,
+    font-size: $font-size-2,
+    font-weight: $font-weight-2,
+    line-height: 1.25px
+  ),
+  $heading-3: (
+    font-family: $font-family,
+    font-size: $font-size-3,
+    font-weight: $font-weight-3,
+    line-height: 1.25px
+  ),
+  $heading-4: (
+    font-family: $font-family,
+    font-size: $font-size-4,
+    font-weight: $font-weight-4,
+    line-height: 1.25px
+  ),
+  $heading-5: (
+    font-family: $font-family,
+    font-size: $font-size-5,
+    font-weight: $font-weight-5,
+    line-height: 1.25px
+  )
 );

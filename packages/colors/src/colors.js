@@ -53,3 +53,18 @@ export const danger = {
   500: danger500,
   600: danger600
 };
+
+export const warning100 = '#FDDBA5';
+export const warning200 = '#FCC978';
+export const warning300 = '#FBB74B';
+export const warning400 = '#D18A19';
+export const warning500 = '#A76E14';
+export const warning600 = '#7D530F';
+export const warning = {
+  100: warning100,
+  200: warning200,
+  300: warning300,
+  400: warning400,
+  500: warning500,
+  600: warning600
+};

@@ -24,3 +24,17 @@ export const primary = {
   600: primary600
 };
 
+export const success100 = '#9CE6D6';
+export const success200 = '#6BD9C1';
+export const success300 = '#3ACDAD';
+export const success400 = '#07A07F';
+export const success500 = '#04604C';
+export const success600 = '#034033';
+export const success = {
+  100: success100,
+  200: success200,
+  300: success300,
+  400: success400,
+  500: success500,
+  600: success600
+};

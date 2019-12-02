@@ -38,3 +38,18 @@ export const success = {
   500: success500,
   600: success600
 };
+
+export const danger100 = '#FCCFD5';
+export const danger200 = '#FBA0AB';
+export const danger300 = '#F97787';
+export const danger400 = '#E01C3A';
+export const danger500 = '#B30A27';
+export const danger600 = '#88021C';
+export const danger = {
+  100: danger100,
+  200: danger200,
+  300: danger300,
+  400: danger400,
+  500: danger500,
+  600: danger600
+};

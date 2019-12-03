@@ -1,0 +1,70 @@
+/**
+ * Copyright Paikka. 2019, 2019
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+$back: #000000;
+
+$white: #FFFFFF;
+
+$primary-100: #CCDDED;
+$primary-200: #99BCDB;
+$primary-300: #3993DA;
+$primary-400: #166BC3;
+$primary-500: #166BC3;
+$primary-600: #166BC3;
+$primary: (
+    100: $primary-100,
+    200: $primary-200,
+    300: $primary-300,
+    400: $primary-400,
+    500: $primary-500,
+    600: $primary-600
+) !default;
+
+$success-100: #9CE6D6;
+$success-200: #6BD9C1;
+$success-300: #3ACDAD;
+$success-400: #07A07F;
+$success-500: #04604C;
+$success-600: #034033;
+$success: (
+    100: $success-100,
+    200: $success-200,
+    300: $success-300,
+    400: $success-400,
+    500: $success-500,
+    600: $success-600
+) !default;
+
+$danger-100: #FCCFD5;
+$danger-200: #FBA0AB;
+$danger-300: #F97787;
+$danger-400: #E01C3A;
+$danger-500: #B30A27;
+$danger-600: #88021C;
+$danger: (
+    100: $danger-100,
+    200: $danger-200,
+    300: $danger-300,
+    400: $danger-400,
+    500: $danger-500,
+    600: $danger-600
+) !default;
+
+$warning-100: #FDDBA5;
+$warning-200: #FCC978;
+$warning-300: #FBB74B;
+$warning-400: #D18A19;
+$warning-500: #A76E14;
+$warning-600: #7D530F;
+$warning: (
+    100: $warning-100,
+    200: $warning-200,
+    300: $warning-300,
+    400: $warning-400,
+    500: $warning-500,
+    600: $warning-600
+) !default;

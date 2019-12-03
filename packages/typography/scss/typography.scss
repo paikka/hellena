@@ -1,0 +1,88 @@
+/**
+ * Copyright Paikka. 209, 209
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+$baseFontSize: 16px !default;
+
+$fontSize1: .5rem;
+$fontSize2: .875rem;
+$fontSize3: 1rem;
+$fontSize4: 1.25rem;
+$fontSize5: 1.25rem;
+$fontSize6: 1.5rem;
+$fontSize7: 1.75rem;
+$fontSize8: 2rem;
+$fontSize9: 2.25rem;
+$fontSize10: 2.625rem;
+$fontSize11: 3rem;
+$fontSize12: 3.375rem;
+$fontSize13: 3.75rem;
+$fontSize14: 4.25rem;
+$fontSize15: 4.75rem;
+$fontSize: (
+    1: $fontSize1,
+    2: $fontSize2,
+    3: $fontSize3,
+    4: $fontSize4,
+    5: $fontSize5,
+    6: $fontSize6,
+    7: $fontSize7,
+    8: $fontSize8,
+    9: $fontSize9,
+    10: $fontSize10,
+    11: $fontSize11,
+    12: $fontSize12,
+    13: $fontSize13,
+    14: $fontSize14,
+    15: $fontSize15
+) !default;
+
+$fontWeight1: 100;
+$fontWeight2: 200;
+$fontWeight3: 300;
+$fontWeight4: 400;
+$fontWeight5: 500;
+$fontWeight6: 600;
+$fontWeight7: 700;
+$fontWeight8: 800;
+$fontWeight9: 900;
+$fontWeight: (
+    1: $fontWeight1,
+    2: $fontWeight2,
+    3: $fontWeight3,
+    4: $fontWeight4,
+    5: $fontWeight5,
+    6: $fontWeight6,
+    7: $fontWeight7,
+    8: $fontWeight8,
+    9: $fontWeight9
+) !default;
+
+$text1: $fontSize1;
+$text2: $fontSize2;
+$text3: $fontSize3;
+$text4: $fontSize4;
+$text: (
+    1: $fontSize1,
+    2: $fontSize2,
+    3: $fontSize3,
+    4: $fontSize4
+);
+
+$heading1: $fontSize5;
+$heading2: $fontSize6;
+$heading3: $fontSize7;
+$heading4: $fontSize8;
+$heading5: $fontSize9;
+$heading6: $fontSize10;
+$heading: (
+    1: $heading1,
+    2: $heading2,
+    3: $heading3,
+    4: $heading4,
+    5: $heading5,
+    6: $heading6,
+) !default;

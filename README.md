@@ -5,6 +5,9 @@
 
 <p align="center" style="font-size: 1.2rem;">Hellena's official UI library, built according to the Hellena Design Guidelines.</p>
 
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+
+
 # Contributing
 
 Contribution is currently only available for Paikka employees.
